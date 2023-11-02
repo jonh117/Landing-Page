@@ -1,0 +1,617 @@
+ /* Header Nav */
+
+ * {
+    /* outline: 1px solid red; */
+ }
+
+.logo-geek {
+    width: 200px;
+    margin-left: 15px;
+}
+
+
+.header-container {  
+    height: 17vh;
+    display: flex;
+    width: 100%;
+}
+
+.header-nav {
+    width: 100%;
+    height: 100%;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.nav-items {
+    display: flex;
+    padding-right: 30px;  
+}
+
+.header-item__logo {
+    padding: 10px;  
+}
+
+.open-menu {
+    display: none;
+}
+
+
+.nav-items li {
+    list-style: none;
+}
+
+
+.nav-items li a{
+    color: #000;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+/* main */
+
+/* section jumbotron */
+
+.jumbotron-container {
+    display: flex;
+    width: 100%;
+    height: 82vh;   
+}
+
+
+.jumbotron-container__title {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+.jumbotron-container__text {
+    background-color: #004B7F;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 50%; 
+    border-radius: 25px 0px 0px 25px;
+    margin: 0px 0px 0px 8px; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+.jumbotron-container-img {
+    background-color: #004B7F;
+    width: 50%; 
+    border-radius: 0px 25px 25px 0px;
+    margin: 0px 8px 8px 0px; 
+}
+
+
+.jumbotron-container-img__microsoldering {
+    width: 50%;
+    border-radius: 0px 25px 25px 0px;
+    margin: 0px 8px 8px 0px;
+    object-fit: cover; 
+    height: 100%;
+}
+   
+
+.jumbotron-container__paragraph {
+    font-family: 'Varela Round', sans-serif;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    justify-content: center;
+}
+
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+.jumbotron-container__text input {
+    border-radius: 8px;
+    border: 0px;
+    width: 250px;
+    padding: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    height: 35px;
+}
+
+
+.jumbotron-container__text button {
+    border-radius: 8px;
+    border: 0;
+    width: 55px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background-color: #001844;
+    color: #fff;
+    height: 37px;
+}
+
+
+.jumbotron-container__paragraph__bottom {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 9px;
+    align-items: flex-end;
+}
+
+.curses-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 210px;
+}    
+
+.p-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.p1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.p2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.p3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 20px;   
+}
+ /* Section Curses */
+.curses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.curse {
+    /* 
+border: solid 1px red; */
+    width: 300px;
+    height: 450px;
+
+}   
+
+.curse-img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.curse-text-container {
+    padding: 10px;
+}
+
+.curse-new {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 15px;
+    margin:10px 0px 0px 0px;
+}
+
+.curse-name {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    margin:10px 0px 0px 0px;
+}
+
+.curse-description {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 14px;
+    margin:10px 0px 5px 0px;
+    height: 65px; 
+}
+
+.curse-data {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.autor-curse-img {
+    width: 30px;
+    height: 30px;
+}
+
+.autor-name {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 12px;
+}
+
+.date-curse {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 12px;
+}
+
+.help-section-container {
+    width: 100%;
+    display: flex;
+    margin-bottom: 90px;
+
+}
+
+.help-img {
+    width: 50%;  
+    border-radius: 25px 0px 0px 25px;
+    margin: 0px 0px 8px 8px; 
+    object-fit: cover;
+    max-height: 500px;
+
+}
+.text-help {
+    width: 50%;
+    background-color: #004B7F;
+    border-radius: 0px 25px 25px 0px;
+    margin: 0px 8px 8px 0px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.text-help__tittle {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 0px 0px 0px 10px;
+    margin: 25px 0px 25px 0px;
+    align-self: start;
+}
+.text-help__big {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 0px 0px 0px 10px;
+    margin: 0 ;
+}
+
+.text-help__description {
+    font-family: 'Varela Round', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+    padding: 0px 0px 0px 10px;
+    margin-bottom: 50px;
+
+    
+}
+
+.help-button {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+/* footer */
+
+.footer-container {
+    padding: 0 10px;
+    background-color: #004B7F;
+}
+.first-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-div {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    gap: 25px;
+    justify-content: space-between;
+    padding: 0px 25px 0px 35px;
+    font-size: 15px;
+}
+
+
+.container-left-links {
+    display: flex;
+    gap: 25px;
+
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+
+}
+.social-link {
+    padding: 10px;
+    
+}
+
+.address {
+    text-align: center;
+    color: #fff;
+    padding: 25px;
+    font-size: 12px;
+}
+
+.address-p1 {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.address-p2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+.logo-geek-container {
+
+}
+
+.logo-geek-footer {
+    width: 200px;
+    padding: 35px;
+    border: 1px 
+
+}
+
+
+.social-link {
+    display:flex; 
+    height: 75px;
+    align-items: center;      
+}    
+
+.logo-geek-facebook {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.logo-geek-instagram {
+    width: 100px;
+    height: 55px;
+}
+
+.logo-geek-youtube {
+    width: 65px;
+    height: 50px;
+}
+
+.logo-geek-twitter {
+    width: 55px;
+    height: 55px;
+
+}
+
+.second-div__consulta-terminos {
+    align-self: flex-end;
+}
+
+/* Responsive Tab */
+@media (max-width:850px){
+     /* Header Nav */
+   .desktop {
+        display: none;
+   }
+
+   .logo-geek{
+        width: 210px;
+   }
+
+   .open-menu {
+        display: flex;
+        width: 50px;
+        padding-right: 20px   
+    }
+   
+    .header-container {
+        height: 15vh;
+        display: flex;
+    }
+
+    .jumbotron-container__text {
+        background-color: #004B7F;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        height: 75vh;
+        width: 60vw; 
+        border-radius: 25px 0px 0px 25px;
+        margin: 8px 0px 8px 8px; 
+        justify-content: center;
+        align-items: center; 
+    }
+
+    .jumbotron-container-img__microsoldering {
+        margin: 8px 8px 0px 0px; 
+        height: 81vh;    
+    }
+}  
+
+
+/* Responsive Mobile */
+@media (max-width:680px){
+    /* Header Nav */
+    .desktop {
+         display: none;
+    }
+ 
+    .logo-geek{
+         width: 200px;
+    }
+ 
+    .open-menu {
+         display: flex;
+         width: 50px;
+         padding-right: 20px   
+    }
+    
+    .header-container {    
+         height: 13vh;
+         display: flex;
+    }
+
+    .jumbotron-container__text {
+        background-color: #004B7F;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        height: 78vh;
+        width: 100%; 
+        border-radius: 25px 25px 25px 25px;
+        margin: 8px 8px 8px 8px; 
+        justify-content: center;
+        align-items: center;  
+    }
+
+    .jumbotron-container-img__microsoldering {
+        display: none;
+    }    
+         
+}
+
+/* Responsive 300px */
+@media (max-width:328px){
+    /* Header Nav */
+    .desktop {
+        display: none;
+    }
+ 
+    .logo-geek{
+        display: none;
+    }
+ 
+    .open-menu {
+        display: flex;
+        width: 50px;
+        padding-right: 20px; 
+    }
+
+    .header-nav {
+        display: flex;
+        justify-content: center; 
+    }
+
+    .header-container {   
+        height: 10vh;
+        display: flex;
+    }
+
+    .jumbotron-container {
+        display: flex;
+        width: 300px;  
+    }
+    
+    .jumbotron-container__title {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    
+    .jumbotron-container__text {
+        background-color: #004B7F;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        width: 100%;   
+        border-radius: 25px 25px 25px 25px;
+        margin: 8px 8px 8px 8px; 
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .jumbotron-container-img__microsoldering {
+        display: none;
+    }    
+
+    .jumbotron-container__paragraph {
+        font-family: 'Varela Round', sans-serif;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 500;
+        justify-content: center;
+    }
+    
+    .form-container {
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        flex-wrap: wrap;      
+    }
+
+    .jumbotron-container__text input {
+        border-radius: 8px;
+        border: 0px;
+        width: 250px;
+        padding: 12px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        height: 35px;  
+    }
+    
+    .jumbotron-container__text button {
+        border-radius: 8px;
+        border: 0;
+        width: 55px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        background-color: #001844;
+        color: #fff;
+        height: 37px;   
+    }
+    
+    .jumbotron-container__paragraph__bottom {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+        font-size: 9px;
+        align-items: flex-end;
+    }
+    
+    
+}
+    
+  
+  
+ 
+    
