@@ -967,7 +967,7 @@ a {
 
     .jumbotron-container {
         display: flex;
-        width: 300px;  
+        width: 100%;  
     }
     
     .jumbotron-container__title {
