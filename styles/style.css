@@ -437,7 +437,7 @@ a {
 }
 
 /*Responsive 1000px*/
-@media (max-width:1260px){
+@media only screen and (max-width:1260px){
     .text-help__tittle {
         font-family: 'Montserrat', sans-serif;
         color: #fff;
@@ -482,7 +482,7 @@ a {
     }
 }
 
-@media (max-width:960px){
+@media only screen and (max-width:960px){
     .text-help__tittle {
         font-family: 'Montserrat', sans-serif;
         color: #fff;
@@ -513,7 +513,7 @@ a {
 
 } 
 /* Responsive Tab */
-@media (max-width:850px){
+@media only screen and  (max-width:850px){
      /* Header Nav */
    .desktop {
         display: none;
@@ -587,7 +587,7 @@ a {
 
     
 /* Responsive Mobile */
-@media (max-width:680px){
+@media only screen and  (max-width:680px){
     /* Header Nav */
     .desktop {
          display: none;
@@ -905,7 +905,7 @@ a {
 
 }
 
-@media (max-width:570px){
+@media only screen and (max-width:570px){
     .help-section-container {
         width: 100%;
         display: flex;
@@ -939,7 +939,7 @@ a {
 
 
 /* Responsive 300px */
-@media (max-width:400px){
+@media only screen and  (max-width:400px){
     /* Header Nav */
     .desktop {
         display: none;
